@@ -25,11 +25,15 @@ class MyApp extends StatelessWidget {
             IconButton(
               onPressed: () {},
               icon: Icon(Icons.mail),
+              color: Colors.yellowAccent,
             ),
           ],
         ),
         body: SafeArea(
-          child: Text("Aku cina kamu"),
+          child: Image(
+            image: AssetImage('assets/images/monster.png'),
+            height: 200,
+          ),
         ),
       ),
     );
